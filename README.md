@@ -25,7 +25,7 @@ Every existing self-hosted video tool is YouTube-only, download-first, and ignor
 
 | Layer | Technology | Notes |
 |---|---|---|
-| Backend | Python 3.11 + FastAPI | Async, lightweight, auto-generates OpenAPI docs |
+| Backend | Python 3.12 + FastAPI | Async, lightweight, auto-generates OpenAPI docs |
 | Frontend | React | Served by FastAPI in production |
 | Database | SQLite (default) / PostgreSQL | User's choice via env config |
 | Processing | yt-dlp · ffmpeg-python · ffprobe | Bundled in Docker image |
